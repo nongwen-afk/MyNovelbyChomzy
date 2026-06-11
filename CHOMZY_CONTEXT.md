@@ -14,6 +14,7 @@ Chomzy is a private AI librarian agent for a personal novel, PDF, and diary web 
 
 ## Current Stack
 - **Framework**: Next.js (App Router, src/ directory, TypeScript, ESLint)
+- **Database/Storage**: Supabase (Project: `chomzy-dev` in Singapore region)
 - **Styling**: Vanilla CSS (Next.js defaults)
 
 ## Completed Steps
@@ -22,10 +23,11 @@ Chomzy is a private AI librarian agent for a personal novel, PDF, and diary web 
 - **Step 1**: Created `CHOMZY_CONTEXT.md` and `README.md`.
 - **Step 2**: Created Chomzy agent foundation (types, system prompt, import novel workflow placeholders, tools description readme, index exports, and lint verification).
 - **Git Setup**: Initialized local git, committed existing files, connected origin to GitHub, and set up tracked `main` and `dev` branches.
+- **Step 3**: Designed Supabase architecture documents (database tables, storage buckets, RLS/auth setup, configuration).
 
 ## Pending Steps
 - **Future Steps**:
-  - Step 3 — Supabase planning and environment setup.
+  - Step 4 — Install Supabase SDK and Drizzle.
   - Build UI layout and foundations.
   - Implement private agent workflows, tools, and prompts.
   - Integrate PDF extraction and OCR (when requested).
@@ -43,10 +45,8 @@ Chomzy is a private AI librarian agent for a personal novel, PDF, and diary web 
 - Do not add database code yet.
 
 ## Last Changes Made
-- Staged and committed Step 1 & Step 2 files.
-- Connected remote repository `https://github.com/nongwen-afk/MyNovelbyChomzy.git`.
-- Pushed `main` and `dev` branches to origin.
-- Checked out and left the working copy on `dev` branch.
+- Created directory `docs/architecture/` and design documents: `database.md`, `storage.md`, `auth.md`, and `supabase.md`.
+- Updated `CHOMZY_CONTEXT.md` to reflect architecture planning.
 
 ## Next Recommended Step
-- **Step 3** — Supabase planning and environment setup.
+- **Step 4** — Install Supabase SDK and Drizzle, configure Drizzle schemas, setup database client connection, and write local environment configuration scripts.
