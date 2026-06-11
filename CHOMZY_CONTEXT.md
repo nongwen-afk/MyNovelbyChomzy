@@ -3,6 +3,15 @@
 ## Project Goal
 Chomzy is a private AI librarian agent for a personal novel, PDF, and diary web app.
 
+## GitHub Repository
+- **URL**: [https://github.com/nongwen-afk/MyNovelbyChomzy.git](https://github.com/nongwen-afk/MyNovelbyChomzy.git)
+
+## Branch Rules
+- `main` = stable / production branch.
+- `dev` = development / testing branch (current active branch).
+- **Rule**: All new work must happen on `dev` first.
+- **Rule**: Only merge `dev` into `main` after thorough testing.
+
 ## Current Stack
 - **Framework**: Next.js (App Router, src/ directory, TypeScript, ESLint)
 - **Styling**: Vanilla CSS (Next.js defaults)
@@ -12,6 +21,7 @@ Chomzy is a private AI librarian agent for a personal novel, PDF, and diary web 
 - **Step 1**: Created required folders (`src/agents/chomzy`, `src/agents/chomzy/tools`, `src/agents/chomzy/workflows`, `src/agents/chomzy/prompts`, `src/lib`, `src/server`, `scripts`).
 - **Step 1**: Created `CHOMZY_CONTEXT.md` and `README.md`.
 - **Step 2**: Created Chomzy agent foundation (types, system prompt, import novel workflow placeholders, tools description readme, index exports, and lint verification).
+- **Git Setup**: Initialized local git, committed existing files, connected origin to GitHub, and set up tracked `main` and `dev` branches.
 
 ## Pending Steps
 - **Future Steps**:
@@ -33,12 +43,10 @@ Chomzy is a private AI librarian agent for a personal novel, PDF, and diary web 
 - Do not add database code yet.
 
 ## Last Changes Made
-- Created `src/agents/chomzy/types.ts` containing core interfaces.
-- Created `src/agents/chomzy/prompts/system.ts` containing `CHOMZY_SYSTEM_PROMPT`.
-- Created `src/agents/chomzy/workflows/importNovelWorkflow.ts` containing typed workflow function placeholders.
-- Created `src/agents/chomzy/tools/README.md` containing planned tool specifications.
-- Created `src/agents/chomzy/index.ts` exporting agent types, prompts, and workflows.
-- Ran lint tests and verified project compiles and passes eslint rules.
+- Staged and committed Step 1 & Step 2 files.
+- Connected remote repository `https://github.com/nongwen-afk/MyNovelbyChomzy.git`.
+- Pushed `main` and `dev` branches to origin.
+- Checked out and left the working copy on `dev` branch.
 
 ## Next Recommended Step
 - **Step 3** — Supabase planning and environment setup.
